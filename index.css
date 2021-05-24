@@ -1,0 +1,225 @@
+body{
+	color: white;
+	background-image: url(image/o6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.text{       /*for introduction*/
+	color:white;
+	font-size:40px;
+	font-family:cursive;
+	text-shadow: 2px 2px red;
+	padding-top: 45px;
+	margin-left: 50px;
+
+}
+.fext{               /*div for tagline*/
+	color:white;
+	font-size:20px;
+	font-family:cursive;
+	margin-left:50px;
+	margin-top:45px;
+	animation-name:example; 
+	animation-duration:3s;
+	background-color:black;
+	height:125px;
+	width:100px;
+}
+.fext:hover{          /*div for hovering of tagline*/
+	width:300px;
+	transition: 5s;
+}
+nav{
+	height:50px;
+	text-align: right;
+	font-size:30px;
+	
+}	
+
+.placeholder{        /*place for image*/
+         background-color:#0000008c;
+          height: 150px;
+          margin:5px;
+          width:350px;
+          margin-left:80px;
+}
+.skills{         /* Title of portfolio*/
+	height:50px;
+	font-size: 40px;
+	margin-left: 40px;
+	text-shadow: 1px 1px red;
+}
+
+.one{            /* for menu*/
+	color: white;
+	padding-right:20px;
+	text-decoration: none;
+	
+} 
+.one:hover{        /* menu hover*/
+	background-color:skyblue;
+	color:black;
+}
+.title{            /* For topic contact menu*/
+	font-size: 40px;
+	text-shadow: 2px 2px red;
+	margin-left: 60px;
+}
+.continfo{          /*for subtitles of contact page*/
+	/*height: 600px;
+	width: 600px;*/
+	/*margin-top:100px;*/
+	margin-left:30px;
+	margin-top:8px;
+	font-size: 25px;	
+}	
+.pan{               /*for inupt of contact.html*/
+	width:300px;
+	height:25px;
+	margin-left: 5px;
+}
+.w:hover{      /* hover on submit in contact*/
+	background-color:skyblue;
+}
+.photo{            /* picture for cv*/
+	
+	height:590px;
+	float:left;
+}    
+.two{               /*topic of profile*/
+	font-size: 35px;
+	text-shadow: 1px 1px red;
+	margin-left: 320px;
+}	
+.three{            /*for input in profile*/
+	font-size: 20px;
+	margin-left: 320px;
+
+}
+.four{            /* for education*/
+	font-size: 35px;
+	text-shadow: 1px 1px red;
+	margin-left: 320px;
+	
+}
+.five{             /* for input in education*/
+	font-size: 20px;
+	margin-left: 320px;
+	
+	
+}
+.six{              /* topic of skills*/
+	font-size: 35px;
+	text-shadow: 1px 1px red;
+	/*margin-left: 320px;*/
+	/*float:left;*/
+}
+.seven{            /* for input in skills*/
+	font-size: 20px;
+	/*margin-left: 320px;*/
+	
+	/*width:px;*/
+}
+
+
+.nine{		 /*For language*/ 
+	font-size: 35px;
+	text-shadow: 1px 1px red;
+	/*margin-left: 320px;*/
+	
+	
+}
+.ten{              /*for input in language*/
+	font-size: 20px;
+	/*margin-left: 320px;*/
+}
+.eleven{          /*for hobbies*/
+	font-size: 35px;
+	text-shadow: 1px 1px red;
+	/*margin-left: 320px;*/
+	
+}
+.twelve{          /*for input in hobbies*/
+	font-size: 20px;
+	/*margin-left: 320px;*/
+
+}
+.report{          /* for report writing*/
+	font-size: 50px;
+	text-shadow: 1px 1px red;
+	margin-left: 30px;
+}
+.site{              /*inside report*/
+     font-size: 25px;
+     margin-left: 30px;
+}
+.later{             /* class of placeholder images */
+	height:220px;
+	width:300px;
+}
+
+
+.bater{        /* div for images of portfolio*/
+	
+	display: grid;
+	grid-row-gap: 50px;
+	grid-column-gap:10px;
+	grid-template-columns: auto auto;
+	padding: 10px;
+}
+.fie1{            /* fieldset of skills*/
+	margin-top: 15px;
+	width:250px;
+}
+.fie2{               /*fieldset of language*/
+	width:250px;
+	
+}
+.fie3{              /*fieldset of hobbies*/
+	width:250px;
+	margin-top: -250px;
+}
+.last{              /*common class for skills,language and hobbies*/
+	display: grid;
+	grid-template-columns: auto auto auto;
+	width:max-content;
+	column-gap:75px;
+
+}
+
+   /* for responsive view*/
+
+@media screen and (max-width:800px){
+	body{                           /* body of responsive view*/
+	background-color:black;
+	/*background-image: url(image/w1.jpg);*/
+	background-size: cover;
+}
+.bipan:checked~.bipana{               /*for checkbox*/
+	transform:none;
+	width:10%;
+	transition-duration:2s;
+}
+.one{                                /* menu */
+	width:10%;
+	color:white;
+	display: block;
+	font-size: 20px;
+}
+.bipa{                              /* div for creating hamburger*/
+	height:3px;
+	width:18px;
+	background-color: white;
+	margin:6px;
+}
+.bipan{                               /*for  position of checkbox*/
+	float: left;
+	position:relative;
+	top:-26px;
+	opacity: 0%;
+}
+.bipana{                              /* seperate class for menu*/
+	transform: scale(0);
+	transform-origin: 20% 0px;
+}
+}	
