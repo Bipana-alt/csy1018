@@ -3,6 +3,7 @@ body{
 	background-image: url(image/o6.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
 .text{       /*for introduction*/
 	color:white;
@@ -20,10 +21,10 @@ body{
 	margin-left:50px;
 	margin-top:45px;
 	animation-name:example; 
-	animation-duration:3s;
+	animation-duration:4s;
 	background-color:black;
-	height:125px;
-	width:100px;
+	height:180px;
+	width:150px;
 }
 .fext:hover{          /*div for hovering of tagline*/
 	width:300px;
@@ -36,13 +37,13 @@ nav{
 	
 }	
 
-.placeholder{        /*place for image*/
+/*.placeholder{        place for image
          background-color:#0000008c;
           height: 150px;
           margin:5px;
           width:350px;
           margin-left:80px;
-}
+}*/
 .skills{         /* Title of portfolio*/
 	height:50px;
 	font-size: 40px;
@@ -153,7 +154,7 @@ nav{
      font-size: 25px;
      margin-left: 30px;
 }
-.later{             /* class of placeholder images */
+.later{              /*class of placeholder images*/ 
 	height:220px;
 	width:300px;
 }
@@ -186,7 +187,17 @@ nav{
 	column-gap:75px;
 
 }
-
+.bipan{                /* for checkbox*/
+      opacity: 0%;
+}
+.check{
+       margin-left: 250px;
+       padding:10px;
+}
+.valichk{
+	font-size:25px;
+	margin-left: 26px;
+}	
    /* for responsive view*/
 
 @media screen and (max-width:800px){
@@ -216,10 +227,64 @@ nav{
 	float: left;
 	position:relative;
 	top:-26px;
-	opacity: 0%;
+	
 }
 .bipana{                              /* seperate class for menu*/
 	transform: scale(0);
 	transform-origin: 20% 0px;
+}
+.later{             /* class of placeholder images */
+	height:220px;
+	width:300px;
+
+}
+
+.bater{        /* div for images of portfolio*/
+	
+	display: grid;
+	grid-template-columns: auto;
+	/*grid-row-gap: 50px;
+	grid-column-gap:10px;
+	grid-template-columns: auto auto;
+	padding: 10px;*/
+}
+.two{
+	font-size: 25px;
+	clear: both;
+	margin-left:5px;
+}
+.three{
+	font-size: 18px;
+	margin-left:5px;
+}
+.four{
+	font-size: 25px;
+	margin-left:5px;
+}
+.five{
+	font-size: 18px;
+	margin-left:5px;
+}
+.six{
+	font-size: 25px;
+	margin-left:5px;
+}
+.seven{
+	clear: both;
+	font-size: 25px;
+	/*margin-left: 15px;*/
+}
+.last{
+     display: grid;
+     grid-template-columns: auto;
+     margin-bottom:5px;
+}
+.fie3{
+	margin-top: 0;
+}
+.photo{
+	height:750px;
+	float: right;
+
 }
 }	
