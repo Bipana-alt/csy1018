@@ -190,11 +190,11 @@ nav{
 .bipan{                /* for checkbox*/
       opacity: 0%;
 }
-.check{
+.check{                /* screenshot of validation*/
        margin-left: 250px;
        padding:10px;
 }
-.valichk{
+.valichk{             /* title of validation*/
 	font-size:25px;
 	margin-left: 26px;
 }	
@@ -248,6 +248,7 @@ nav{
 	grid-template-columns: auto auto;
 	padding: 10px;*/
 }
+     /* for cv in responsive view started*/
 .two{
 	font-size: 25px;
 	clear: both;
