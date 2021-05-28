@@ -195,10 +195,47 @@ nav{
        padding:10px;
 }
 .valichk{             /* title of validation*/
-	font-size:25px;
+	font-size:30px;
 	margin-left: 26px;
 }	
+.myprog{             /*  title of progress*/
+	font-size: 30px;
+	margin-left: 26px;
+}
+.prog{               /*  screenshot of progress*/
+     padding: 10px;
+     width:1000px;
+     margin-left: 140px;
+}
+.proin{               /* inside of progress*/
+	font-size: 25px;
+	margin-left: 26px;
+}
+.obj{                 /*title of objective*/
+	font-size: 30px;
+	margin-left: 26px;
+}
+.lis{                 /*points of objective*/
+	font-size: 25px;
+	margin-left: 26px;
+}
+.exp{                 /* title of experience*/
+	font-size: 30px;
+	margin-left: 26px;
+}
+.jour{               /* title of journal*/
+    font-size: 30px;
+    margin-left: 26px;
+}
+.datt{             /* points of journal*/
+	font-size: 25px;
+	margin-left: 26px;
+}
+
+
+
    /* for responsive view*/
+
 
 @media screen and (max-width:800px){
 	body{                           /* body of responsive view*/
