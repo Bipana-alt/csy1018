@@ -191,7 +191,7 @@ nav{
       opacity: 0%;
 }
 .check{                /* screenshot of validation*/
-       margin-left: 250px;
+       margin-left:26px;
        padding:10px;
 }
 .valichk{             /* title of validation*/
@@ -205,7 +205,7 @@ nav{
 .prog{               /*  screenshot of progress*/
      padding: 10px;
      width:1000px;
-     margin-left: 140px;
+     margin-left:26px;
 }
 .proin{               /* inside of progress*/
 	font-size: 25px;
@@ -231,8 +231,14 @@ nav{
 	font-size: 25px;
 	margin-left: 26px;
 }
-
-
+.goodcv{           /*referenve of cv topic*/
+	font-size: 30px;
+	margin-left: 26px;
+}
+.goodin{          /* inside of reference*/
+	font-size: 25px;
+	margin-left: 26px;
+}
 
    /* for responsive view*/
 
@@ -325,4 +331,14 @@ nav{
 	float: right;
 
 }
+      /*cv part completes here*/
+
+.check{          /*screenshot of validation*/
+	height:300px;
+	width:400px;
+}
+.prog{          /* screenshot of progress*/
+    height: 350px;
+    width: 500px;
+}      
 }	
