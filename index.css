@@ -225,7 +225,6 @@ nav{
 @media screen and (max-width:800px){
 	body{                           /* body of responsive view*/
 	background-color:black;
-	/*background-image: url(image/w1.jpg);*/
 	background-size: cover;
 }
 .bipan:checked~.bipana{               /*for checkbox*/
@@ -265,10 +264,6 @@ nav{
 	
 	display: grid;
 	grid-template-columns: auto;
-	/*grid-row-gap: 50px;
-	grid-column-gap:10px;
-	grid-template-columns: auto auto;
-	padding: 10px;*/
 }
      /* for cv in responsive view started*/
 .two{
@@ -295,7 +290,6 @@ nav{
 .seven{
 	clear: both;
 	font-size: 25px;
-	/*margin-left: 15px;*/
 }
 .last{
      display: grid;
