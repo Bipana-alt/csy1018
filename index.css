@@ -20,8 +20,6 @@ body{
 	font-family:cursive;
 	margin-left:50px;
 	margin-top:45px;
-	animation-name:example; 
-	animation-duration:4s;
 	background-color:black;
 	height:180px;
 	width:150px;
@@ -36,21 +34,6 @@ nav{
 	font-size:30px;
 	
 }	
-
-/*.placeholder{        place for image
-         background-color:#0000008c;
-          height: 150px;
-          margin:5px;
-          width:350px;
-          margin-left:80px;
-}*/
-.skills{         /* Title of portfolio*/
-	height:50px;
-	font-size: 40px;
-	margin-left: 40px;
-	text-shadow: 1px 1px red;
-}
-
 .one{            /* for menu*/
 	color: white;
 	padding-right:20px;
@@ -61,6 +44,27 @@ nav{
 	background-color:skyblue;
 	color:black;
 }
+.skills{         /* Title of portfolio*/
+	height:50px;
+	font-size: 40px;
+	margin-left: 40px;
+	text-shadow: 1px 1px red;
+}
+.later{              /*class of placeholder images */
+	height:220px;
+	width:300px;
+}
+
+
+.bater{        /* div for images of portfolio*/
+	
+	display: grid;
+	grid-row-gap: 50px;
+	grid-column-gap:10px;
+	grid-template-columns: auto auto;
+	padding: 10px;
+}
+
 .title{            /* For topic contact menu*/
 	font-size: 40px;
 	text-shadow: 2px 2px red;
@@ -112,39 +116,30 @@ nav{
 .six{              /* topic of skills*/
 	font-size: 35px;
 	text-shadow: 1px 1px red;
-	/*margin-left: 320px;*/
-	/*float:left;*/
+	
 }
 .seven{            /* for input in skills*/
 	font-size: 20px;
-	/*margin-left: 320px;*/
-	
-	/*width:px;*/
 }
-
 
 .nine{		 /*For language*/ 
 	font-size: 35px;
 	text-shadow: 1px 1px red;
-	/*margin-left: 320px;*/
-	
-	
 }
+
 .ten{              /*for input in language*/
 	font-size: 20px;
-	/*margin-left: 320px;*/
 }
+
 .eleven{          /*for hobbies*/
 	font-size: 35px;
 	text-shadow: 1px 1px red;
-	/*margin-left: 320px;*/
-	
 }
+
 .twelve{          /*for input in hobbies*/
 	font-size: 20px;
-	/*margin-left: 320px;*/
-
 }
+
 .report{          /* for report writing*/
 	font-size: 50px;
 	text-shadow: 1px 1px red;
@@ -154,20 +149,7 @@ nav{
      font-size: 25px;
      margin-left: 30px;
 }
-.later{              /*class of placeholder images*/ 
-	height:220px;
-	width:300px;
-}
 
-
-.bater{        /* div for images of portfolio*/
-	
-	display: grid;
-	grid-row-gap: 50px;
-	grid-column-gap:10px;
-	grid-template-columns: auto auto;
-	padding: 10px;
-}
 .fie1{            /* fieldset of skills*/
 	margin-top: 15px;
 	width:250px;
