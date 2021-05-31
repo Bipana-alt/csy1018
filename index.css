@@ -170,7 +170,7 @@ nav{
       opacity: 0%;
 }
 .check{                /* screenshot of validation*/
-       margin-left:26px;
+       margin-left:230px;
        padding:10px;
 }
 .valichk{             /* title of validation*/
@@ -184,7 +184,7 @@ nav{
 .prog{               /*  screenshot of progress*/
      padding: 10px;
      width:1000px;
-     margin-left:26px;
+     margin-left:120px;
 }
 .proin{               /* inside of progress*/
 	font-size: 25px;
@@ -306,12 +306,68 @@ nav{
 }
       /*cv part completes here*/
 
-.check{          /*screenshot of validation*/
-	height:300px;
-	width:400px;
+       /*site report part starts here*/     
+.report{      
+	font-size: 30px;
+	margin-left: 5px;
 }
-.prog{          /* screenshot of progress*/
-    height: 350px;
-    width: 500px;
-}      
+.obj{
+	font-size: 20px;
+	margin-left: 5px;
+}
+.lis{
+	font-size: 20px;
+	margin-left: 5px;
+}  
+.exp{
+	font-size: 20px;
+	margin-left: 5px;
+} 
+.site{
+	margin-left: 5px;
+	font-size: 20px;
+}  
+.goodcv{
+	font-size: 20px;
+	margin-left: 5px;
+}
+.goodin{
+	font-size: 20px;
+	margin-left: 5px;
+}
+.myprog{
+	font-size: 20px;
+	margin-left: 5px;
+}
+.prog{           
+    height:200px;
+    width: 350px;
+    margin-left:5px;
+}
+.proin{
+	margin-left: 5px;
+	font-size: 20px;
+} 
+.valichk{
+	font-size: 25px;
+	margin-left: 5px;
+}
+.check{         
+	height:200px;
+	width:350px;
+	margin-left:5px;
+}
+.jour{
+	font-size: 25px;
+	margin-left: 5px;
+}
+.datt{
+	font-size: 20px;
+	margin-left: 5px;
+}
+.conion{
+	margin-left: 5px;
+	font-size: 25px;
+}
+         /*site report part ends here*/
 }	
