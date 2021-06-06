@@ -216,7 +216,11 @@ nav{
 }
 .goodin{          /* inside of reference*/
 	font-size: 25px;
-	margin-left: 26px;
+	margin-left: 20px;
+}
+.conion{
+	font-size: 30px;
+	margin-left:5px;
 }
 
    /* for responsive view*/
@@ -284,7 +288,7 @@ nav{
 	margin-left:5px;
 }
 .six{
-	font-size: 25px;
+	font-size: 30px;
 	margin-left:5px;
 }
 .seven{
