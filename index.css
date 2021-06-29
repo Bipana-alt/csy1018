@@ -269,6 +269,12 @@ nav{
 	display: grid;
 	grid-template-columns: auto;
 }
+.title{         /*div for contact page*/
+	font-size: 30px;
+}
+.continfo{
+	margin:0px;
+}
      /* for cv in responsive view started*/
 .two{
 	font-size: 25px;
